@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Bank of America Online Banking</title>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+    <link href='WebContent/css/style.css' rel='stylesheet'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> </head>
+    <link href='https://lh6.ggpht.com/x8OtRvnO93xdOxzbOHZ5DSSTuk92OgI0koX3nFzl5eAx1onCjZooiCUDvVRfXUeDUQ=w300' rel='icon'>
+<body >
+    <div class="middlePage" style="width:300px;height:550px">
+        
+        <div class="page-header">
+            <h1 class="logo">Bank of America</h1> 
+        </div>
+        
+        <div class="panel panel-info">
+            
+            <div class="panel-heading">
+                <h3 class="panel-title">Log In</h3>
+                
+            </div><br>
+            
+            
+              <form class="form-horizontal" action="LoginController" method="post">
+                  
+                  <div style="height:230px">
+                    <input id="textinput" name="userName" type="text" placeholder="Enter User Name" class="form-control input-md" style="width:250px" required>
+                    <br>
+                     <input id="textinput" name="password" type="password" placeholder="Enter Password" class="form-control input-md" style="width:250px" required>
+                     <br>
+                    
+                      <div>
+                      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1"><small> Remember me</small>
+                      </div>
+                       <br>
+                                  
+                    <button id="singlebutton" name="login" value="login" class="btn btn-info btn-sm pull-left" type="submit">Log In</button>
+                    <a href="register.html" ><small style="margin-left:10px">Register here</small></a>
+                   <br><br> <button id="singlebutton" name="Customer Info" value="Customer Info" class="btn btn-info btn-sm pull-left" type="submit">Customer Info</button>
+                   </div>
+                  
+             </form>
+                        
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>

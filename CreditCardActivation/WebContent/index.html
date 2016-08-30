@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Citi Card Activation</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="wrapper" class="col-xs-3">
+    <form class="form-signin" action="http://localhost:8181/CreditCardActivation/CreditCardActivation" method="POST">       
+      <h2 class="form-signin-heading">Activate Your Card Here</h2>
+      <label for="usr">Credit Card Number</label><input type="text" class="form-control" name="cardnumber" placeholder="Ex: 1234-5678-1234-5678" style="width:300px"  />
+      <br><label for="pwd">CVV</label><input type="password" class="form-control" name="cvv" placeholder="Ex: 235" style="width:300px"/>
+      <br><label for="pwd">Last 4 Digits of SSN:</label><input type="password" class="form-control" name="ssn" placeholder="Ex: 1234" style="width:300px"/>      
+      <br><button class="btn btn-success" type="submit">Activate</button>   
+    </form>
+  </div>
+  <script src = "WebContent/js/jquery-1.12.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  
+</body>
+</html>
