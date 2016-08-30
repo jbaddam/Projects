@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div><h1 style="align:center">WelCome To Boot Camp Java</h1></div>
+<div>
+<a href ="corejava.html" >Click Here for Core Java</a>
+</div>
+<div>
+ <a href ="Form.html" >Click Here To Submit your Information</a>
+</div>
+
+</body>
+</html>

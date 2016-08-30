@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form
+		action="http://localhost:8181/BootCampJava_JB/EmployeeInformationController"
+		method="post">
+		<fieldset style="width: 500px">
+		<legend style="font-weight: bold">J2EE STACK</legend>
+			
+		
+
+		<div>
+			<label id="lblFirstName">Experience</label> <input type="text"
+				id="txtFirstName" name="experience" required><br> <br>
+			<label class="lblj2ee">J2EE List</label> <select name="J2EE">
+				<option value="Servlets">Java Servlets</option>
+				<option value="JSP">JavaServer Pages</option>
+				<option value="EJB">Enterprise JavaBeans</option>
+				<option value="JMS">Java Message Service</option>
+			</select><br>
+			<br>
+
+			<fieldset style="width: 210px">
+				<legend style="font-weight: bold">Web Services</legend>
+				<label class="lblRest">RestFul </label> <input type="radio"
+					name="WebServices" value="RestFul "><br> <label
+					class="lblsoap">SOAP </label> <input type="radio"
+					name="WebServices" value="SOAP "><br>
+				<br>
+			</fieldset>
+			<br>
+
+
+			<fieldset style="width: 210px">
+				<legend style="font-weight: bold">Frame Work</legend>
+				
+				<label class="lblSpring">Spring </label>
+				 <input type="checkbox" id="rdbGenderMale" name="FrameWork" value="Spring "><br>
+				<label class="lblHibernate">Hibernate </label>
+				 <input type="checkbox" id="rdbGenderMale" name="FrameWork" value="Hibernate "><br> 
+				 <label class="lblAngular">Angular Js</label> 
+				 <input type="checkbox" id="rdbGenderMale" name="FrameWork"value="Angular Js "><br>
+				<label class="lblSpring">Spring </label> 
+				<input type="checkbox" id="rdbGenderMale" name="FrameWork" value="Spring "><br>
+
+			</fieldset>
+			<br>
+			<textarea name="message" rows="5" cols="50">Add your  Comments here</textarea>
+			<br>
+			<br>
+		</div>
+		<input type="submit" value="Save">
+		</fieldset>
+	</form>
+
+	<div class="dropdown" style="width: 100px;height:5px">
+		<br>
+		<br> <label class="dropbtn">JS Frameworks</label>
+		<div class="dropdown-content">
+			<a href="#">Node JS</a> <a href="#">Angular Js</a> <a href="#">ReactJs</a>
+		</div>
+	</div>
+	
+</body>
+</html>

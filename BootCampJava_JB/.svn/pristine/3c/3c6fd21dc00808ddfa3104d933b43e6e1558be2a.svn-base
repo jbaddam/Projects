@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+#txtFirstName{
+    margin-bottom: 2px ;
+    width: 152px;
+}
+
+.lblsoap{
+	margin-right: 9px;
+}
+.lblSpring{
+	margin-right: 35px;
+}
+
+.lblHibernate{
+	margin-right: 15px;
+}
+
+.lblAngular{
+	margin-right: 9px;
+}
+
+.lblj2ee{
+	margin-right: 9px;
+}
+
+#rdbFemale{
+	margin-right: 17px;
+}
+
+
+.lblGenderMale{
+    margin-right: 17px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}

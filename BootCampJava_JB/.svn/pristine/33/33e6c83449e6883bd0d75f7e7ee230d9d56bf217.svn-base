@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div>
+<p>
+Java is a programming language and a platform.
+
+Java is a high level, robust, secured and object-oriented programming language.
+
+Platform: Any hardware or software environment in which a program runs, is known as a platform. Since Java has its own runtime environment (JRE) and API, it is called platform.
+</p>
+</div>
+</body>
+</html>
